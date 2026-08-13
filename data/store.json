@@ -1,0 +1,222 @@
+{
+  "settings": {
+    "pollInterval": 60,
+    "defaultTemplate": {
+      "color": "#9146FF",
+      "showWatchButton": true,
+      "watchButtonLabel": "Watch Live",
+      "buttons": [],
+      "sections": [
+        {
+          "id": "s-author",
+          "kind": "author",
+          "name": "{creator}",
+          "icon": "{avatar}"
+        },
+        {
+          "id": "s-title",
+          "kind": "title",
+          "text": "{creator} is live on {platform}!"
+        },
+        {
+          "id": "s-desc",
+          "kind": "description",
+          "text": "{title}"
+        },
+        {
+          "id": "s-platform",
+          "kind": "platform",
+          "label": "Platform",
+          "value": "{platform}"
+        },
+        {
+          "id": "s-streamtitle",
+          "kind": "streamtitle",
+          "label": "Stream",
+          "value": "{title}"
+        },
+        {
+          "id": "s-game",
+          "kind": "game",
+          "label": "Game",
+          "value": "{game}"
+        },
+        {
+          "id": "s-viewers",
+          "kind": "viewers",
+          "label": "Viewers",
+          "value": "{viewers}"
+        },
+        {
+          "id": "s-started",
+          "kind": "startedat",
+          "label": "Started",
+          "value": "{started_at}"
+        },
+        {
+          "id": "s-thumb",
+          "kind": "thumbnail",
+          "value": "{thumbnail}"
+        },
+        {
+          "id": "s-image",
+          "kind": "image",
+          "value": ""
+        },
+        {
+          "id": "s-footer",
+          "kind": "footer",
+          "text": "Powered by Stream Notifier",
+          "icon": ""
+        },
+        {
+          "id": "s-timestamp",
+          "kind": "timestamp",
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "yourChannels": [
+    {
+      "type": "your",
+      "platform": "twitch",
+      "username": "teamwesternproductions",
+      "customName": "",
+      "group": "Ungrouped",
+      "serverId": "1536485713439367208",
+      "serverName": "TeamWesternProductions (WIP)",
+      "channelId": "1537210323218735144",
+      "channelName": "twitch",
+      "roleId": "1536485713439367209",
+      "roleName": "Member",
+      "roleMentionEnabled": false,
+      "notificationsEnabled": true,
+      "notifyLive": true,
+      "notifyVideo": true,
+      "template": null,
+      "id": "e8e5518b-39f2-40fc-949e-9881424c1d22",
+      "createdAt": "2026-08-13T19:49:40.141Z",
+      "state": {
+        "lastError": "",
+        "lastCheck": "2026-08-13T20:39:00.353Z",
+        "lastLiveKey": "",
+        "lastAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f55fae1c-2369-471f-8b4a-2bf55504a1ce-profile_image-300x300.png"
+      }
+    }
+  ],
+  "friendChannels": [
+    {
+      "type": "friend",
+      "platform": "twitch",
+      "username": "gtaseriesvideos",
+      "customName": "GTASeriesVideos",
+      "group": "Ungrouped",
+      "serverId": "1536485713439367208",
+      "serverName": "TeamWesternProductions (WIP)",
+      "channelId": "1537232330714906655",
+      "channelName": "friends-twitch",
+      "roleId": "1536485713439367209",
+      "roleName": "Member",
+      "roleMentionEnabled": true,
+      "notificationsEnabled": true,
+      "notifyLive": true,
+      "notifyVideo": true,
+      "template": null,
+      "id": "8208056b-c287-4a76-9fe3-9a08f99cd034",
+      "createdAt": "2026-08-13T20:09:07.943Z",
+      "state": {
+        "lastAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1f7e8107-993f-4b44-afed-2362955a1bbf-profile_image-300x300.png",
+        "lastLiveKey": "[DROPS ENABLED] GTA Online Brand Wars | Team eCola | Earn GTA$1M + eCola Tracksuit|2026-08-13T11:02:34Z",
+        "lastLiveTitle": "[DROPS ENABLED] GTA Online Brand Wars | Team eCola | Earn GTA$1M + eCola Tracksuit",
+        "lastLiveUrl": "https://www.twitch.tv/gtaseriesvideos",
+        "lastLiveViewers": 8659,
+        "lastCheck": "2026-08-13T20:39:00.681Z",
+        "lastError": ""
+      }
+    }
+  ],
+  "groups": [],
+  "history": [
+    {
+      "type": "test",
+      "ok": true,
+      "channelId": "1537232330714906655",
+      "channelName": "friends-twitch",
+      "platform": "twitch",
+      "title": "Test notification",
+      "sentTo": "friends-twitch • TeamWesternProductions (WIP)",
+      "id": "9654c53e-b5af-430e-b3f2-abc0b6d7b2cd",
+      "time": "2026-08-13T20:09:10.055Z"
+    },
+    {
+      "type": "test",
+      "ok": true,
+      "channelId": "1537210323218735144",
+      "channelName": "twitch",
+      "platform": "",
+      "title": "Test notification",
+      "sentTo": "twitch • TeamWesternProductions (WIP)",
+      "id": "d8bf3084-9d05-4cdb-b4d2-108fee49c85d",
+      "time": "2026-08-13T20:06:41.902Z"
+    },
+    {
+      "type": "test",
+      "ok": true,
+      "channelId": "1537210323218735144",
+      "channelName": "twitch",
+      "platform": "twitch",
+      "title": "Test notification",
+      "sentTo": "twitch • TeamWesternProductions (WIP)",
+      "id": "493e47a9-2d63-481a-9838-2b831b2a19ed",
+      "time": "2026-08-13T20:05:04.823Z"
+    },
+    {
+      "type": "test",
+      "ok": true,
+      "channelId": "1537210323218735144",
+      "channelName": "twitch",
+      "platform": "twitch",
+      "title": "Test notification",
+      "sentTo": "twitch • TeamWesternProductions (WIP)",
+      "id": "157a1e72-1d62-42e4-9093-84851dffb3c2",
+      "time": "2026-08-13T20:04:33.817Z"
+    },
+    {
+      "type": "test",
+      "ok": false,
+      "channelId": "1537210323218735144",
+      "channelName": "twitch",
+      "platform": "twitch",
+      "title": "Test notification",
+      "error": "Discord channel [object Object] not found. Re-invite the bot / grant access.",
+      "sentTo": "twitch • TeamWesternProductions (WIP)",
+      "id": "3293a040-66c2-4219-b333-fa1b8d60f5af",
+      "time": "2026-08-13T20:01:50.287Z"
+    },
+    {
+      "type": "test",
+      "ok": false,
+      "channelId": "1537210323218735144",
+      "channelName": "twitch",
+      "platform": "twitch",
+      "title": "Test notification",
+      "error": "Discord channel [object Object] not found. Re-invite the bot / grant access.",
+      "sentTo": "twitch • TeamWesternProductions (WIP)",
+      "id": "f485ef85-5fb8-44b2-97b7-fb1b646963b6",
+      "time": "2026-08-13T19:49:42.625Z"
+    },
+    {
+      "type": "test",
+      "ok": false,
+      "channelId": "x",
+      "channelName": "",
+      "platform": "",
+      "title": "Test notification",
+      "error": "Discord bot is not connected. Check DISCORD_TOKEN in .env",
+      "sentTo": "",
+      "id": "0709ca59-9e9f-437e-9d51-d062dac2a9c8",
+      "time": "2026-08-13T19:31:00.023Z"
+    }
+  ]
+}
